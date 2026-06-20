@@ -99,4 +99,12 @@ export const PROJECTS: Project[] = [
     image: "/project-agenteric.jpg",
     gradient: { from: "#1e3a5f", to: "#2d5f8a" },
   },
+  {
+    name: "Tintin Smith",
+    category: "Creator & Agent",
+    url: "https://tintin-smith.vercel.app/",
+    outcome: "A cinematic creator landing page built with Next.js.",
+    image: "/tintin-smith.jpg",
+    gradient: { from: "#0a0a0a", to: "#1a1a2e" },
+  },
 ];
