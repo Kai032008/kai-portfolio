@@ -1,7 +1,4 @@
-export type ProjectCategory =
-  | "Cafe & Bakehouse"
-  | "Creator & Brand"
-  | "Property & Professional";
+export type ProjectCategory = "E-commerce Shop" | "Creator & Agent";
 
 export type Project = {
   name: string;
@@ -23,15 +20,23 @@ export type Project = {
  * UI changes are needed.
  */
 export const CATEGORIES: ProjectCategory[] = [
-  "Cafe & Bakehouse",
-  "Creator & Brand",
-  "Property & Professional",
+  "E-commerce Shop",
+  "Creator & Agent",
 ];
 
 export const PROJECTS: Project[] = [
   {
+    name: "Ami Floral Supplies",
+    category: "E-commerce Shop",
+    url: "https://ami-floral.vercel.app/",
+    outcome:
+      "A luxury florist e-commerce site for Selangor & KL, Malaysia — built with Next.js.",
+    image: "/ami-floral.jpg",
+    gradient: { from: "#5a3b4d", to: "#c98b9e" },
+  },
+  {
     name: "Sonder Bakehouse",
-    category: "Cafe & Bakehouse",
+    category: "E-commerce Shop",
     url: "https://sonderbakehouse.netlify.app/",
     outcome:
       "A warm, mobile-first site for a micro bakery — as crafted as its sourdough.",
@@ -40,7 +45,7 @@ export const PROJECTS: Project[] = [
   },
   {
     name: "SugarDrop Bakehouse",
-    category: "Cafe & Bakehouse",
+    category: "E-commerce Shop",
     url: "https://sugardropbakehouse.com/",
     outcome:
       "A premium, easy-to-browse site that lets a home bakery look as good as its cakes.",
@@ -48,8 +53,17 @@ export const PROJECTS: Project[] = [
     gradient: { from: "#f5e6d3", to: "#d4a0a0" },
   },
   {
+    name: "Hayden Hillier-Smith",
+    category: "Creator & Agent",
+    url: "https://hayden-smith-six.vercel.app/",
+    outcome:
+      "A cinematic creator landing page built with Next.js to grow a personal brand.",
+    image: "/hayden-smith.jpg",
+    gradient: { from: "#0a0a0a", to: "#1a1a2e" },
+  },
+  {
     name: "Zermatt Neo",
-    category: "Creator & Brand",
+    category: "Creator & Agent",
     url: "https://zermatt-neo.vercel.app/",
     outcome:
       "A cinematic creator hub built to grow a personal brand and attract collaborations.",
@@ -59,7 +73,7 @@ export const PROJECTS: Project[] = [
   },
   {
     name: "Matt Stonie",
-    category: "Creator & Brand",
+    category: "Creator & Agent",
     url: "https://matt-stonie.netlify.app/",
     outcome:
       "A creator brand + commerce hub designed to drive fans toward the brand's business.",
@@ -69,7 +83,7 @@ export const PROJECTS: Project[] = [
   },
   {
     name: "OSAS Property",
-    category: "Property & Professional",
+    category: "Creator & Agent",
     url: "https://osas-property.vercel.app/",
     outcome:
       "A lead-generation site that turns visitors into buyer and seller enquiries.",
@@ -78,7 +92,7 @@ export const PROJECTS: Project[] = [
   },
   {
     name: "Agenteric",
-    category: "Property & Professional",
+    category: "Creator & Agent",
     url: "https://agenteric.netlify.app/",
     outcome:
       "A clean, credible site for an insurance professional — built to win trust fast.",
