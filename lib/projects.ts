@@ -53,6 +53,24 @@ export const PROJECTS: Project[] = [
     gradient: { from: "#f5e6d3", to: "#d4a0a0" },
   },
   {
+    name: "Maidream",
+    category: "E-commerce Shop",
+    url: "https://maidream.vercel.app/",
+    outcome:
+      "A Japanese-inspired cake studio website built with Next.js.",
+    image: "/project-maidream.jpg",
+    gradient: { from: "#d98da5", to: "#f7e3ea" },
+  },
+  {
+    name: "Jeff Studio",
+    category: "E-commerce Shop",
+    url: "https://jeff-studio-lac.vercel.app/",
+    outcome:
+      "A luxury nail salon website built with Next.js.",
+    image: "/project-jeff.jpg",
+    gradient: { from: "#1a1a1a", to: "#c9a96e" },
+  },
+  {
     name: "Hayden Hillier-Smith",
     category: "Creator & Agent",
     url: "https://hayden-smith-six.vercel.app/",
