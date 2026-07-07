@@ -1,4 +1,7 @@
-export type ProjectCategory = "E-commerce Shop" | "Creator & Agent";
+export type ProjectCategory =
+  | "E-commerce Shop"
+  | "Creator & Agent"
+  | "Branding";
 
 export type Project = {
   name: string;
@@ -22,6 +25,7 @@ export type Project = {
 export const CATEGORIES: ProjectCategory[] = [
   "E-commerce Shop",
   "Creator & Agent",
+  "Branding",
 ];
 
 export const PROJECTS: Project[] = [
@@ -63,7 +67,7 @@ export const PROJECTS: Project[] = [
   },
   {
     name: "Jeff Studio",
-    category: "E-commerce Shop",
+    category: "Branding",
     url: "https://jeff-studio-lac.vercel.app/",
     outcome:
       "A luxury nail salon website built with Next.js.",
@@ -124,5 +128,32 @@ export const PROJECTS: Project[] = [
     outcome: "A cinematic creator landing page built with Next.js.",
     image: "/tintin-smith.jpg",
     gradient: { from: "#0a0a0a", to: "#1a1a2e" },
+  },
+  {
+    name: "MuscleMie",
+    category: "Branding",
+    url: "https://musclemie.vercel.app/",
+    outcome:
+      "A high-protein noodle brand website built with Next.js.",
+    image: "/musclemie.jpg",
+    gradient: { from: "#8b1a1a", to: "#e8863a" },
+  },
+  {
+    name: "Qristina's Kitchen",
+    category: "Branding",
+    url: "https://qristinaskitchen-gyad.vercel.app/",
+    outcome:
+      "A premium space-themed family restaurant website built with Next.js.",
+    image: "/qristina.jpg",
+    gradient: { from: "#0a0a1f", to: "#3b2f6b" },
+  },
+  {
+    name: "JPOT",
+    category: "Branding",
+    url: "https://jpot.vercel.app/",
+    outcome:
+      "A premium Japanese yakiniku & hotpot restaurant website built with Next.js.",
+    image: "/jpot.jpg",
+    gradient: { from: "#1a1a1a", to: "#a83232" },
   },
 ];
