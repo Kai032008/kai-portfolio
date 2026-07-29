@@ -66,6 +66,33 @@ export const PROJECTS: Project[] = [
     gradient: { from: "#d98da5", to: "#f7e3ea" },
   },
   {
+    name: "Euryales Patisserie",
+    category: "E-commerce Shop",
+    url: "https://euryales.vercel.app/",
+    outcome:
+      "An elegant patisserie e-commerce site built with Next.js.",
+    image: "/euryales.jpg",
+    gradient: { from: "#b76e79", to: "#f0d9c0" },
+  },
+  {
+    name: "Weiss Flora",
+    category: "E-commerce Shop",
+    url: "https://weiss2u.com/",
+    outcome:
+      "A fresh, modern florist e-commerce site built with Next.js.",
+    image: "/weissflora.jpg",
+    gradient: { from: "#6b7f5e", to: "#e8efe0" },
+  },
+  {
+    name: "Unsalted Butter",
+    category: "E-commerce Shop",
+    url: "https://unsalted-butter.vercel.app/",
+    outcome:
+      "A warm, mobile-first bakery e-commerce site built with Next.js.",
+    image: "/unsaltedbutter.jpg",
+    gradient: { from: "#d9a441", to: "#f5e6b8" },
+  },
+  {
     name: "Jeff Studio",
     category: "Branding",
     url: "https://jeff-studio-lac.vercel.app/",
