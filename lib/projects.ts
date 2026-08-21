@@ -30,6 +30,33 @@ export const CATEGORIES: ProjectCategory[] = [
 
 export const PROJECTS: Project[] = [
   {
+    name: "December Floral",
+    category: "E-commerce Shop",
+    url: "https://decemberfloral.vercel.app/",
+    outcome:
+      "A boutique florist storefront with a clean, modern shopping experience built for effortless online orders.",
+    image: "/december.jpg",
+    gradient: { from: "#3b4a3f", to: "#dce7dd" },
+  },
+  {
+    name: "Han Flowers",
+    category: "E-commerce Shop",
+    url: "https://hanflowers.vercel.app/",
+    outcome:
+      "A luxury preserved-flower brand site with an editorial, French-boutique aesthetic and a headless e-commerce foundation.",
+    image: "/hanflowers.jpg",
+    gradient: { from: "#6b7f5e", to: "#e8efe0" },
+  },
+  {
+    name: "By Shér Cakes",
+    category: "E-commerce Shop",
+    url: "https://byshercakes.vercel.app/",
+    outcome:
+      "A custom-built bespoke cake studio site with a warm, editorial design system and seamless online ordering.",
+    image: "/bysher.jpg",
+    gradient: { from: "#8a5a6d", to: "#f0d9e0" },
+  },
+  {
     name: "Ami Floral Supplies",
     category: "E-commerce Shop",
     url: "https://ami-floral.vercel.app/",
